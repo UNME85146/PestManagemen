@@ -18,7 +18,6 @@ include_directories(${CMAKE_SOURCE_DIR}/SourceCode/header)
 if(MSVC)
     # 设置 UTF-8 编码
     add_compile_options(/utf-8)
-
     # 清除 -g 和 -O0 参数（MSVC 不识别）
     foreach(flag_var CMAKE_CXX_FLAGS CMAKE_CXX_FLAGS_DEBUG CMAKE_CXX_FLAGS_RELEASE)
         string(REPLACE "-g" "" ${flag_var} "${${flag_var}}")

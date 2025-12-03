@@ -26,10 +26,19 @@ public:
     void 减少红温值(int 数值);
     void 禁言();
     void 踢人();
+    void 建政();
+    void 吹牛();
+    void 加入QQ群();
+    void 离婚();
+    void 找女大();
+    void 嫖娼();
+    bool 获取管理员权限() const;
+    void 设置管理员权限(bool 权限);
 private:
     std::string 名字;
     std::vector<std::string> 特征;
     int 年龄;
     int 红温值;
+    bool 管理员权限;
 };
 

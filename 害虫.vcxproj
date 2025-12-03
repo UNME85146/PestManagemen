@@ -125,9 +125,25 @@
   <ItemGroup>
     <ClCompile Include="create害虫.cpp" />
     <ClCompile Include="害虫.cpp" />
+    <ClCompile Include="离婚.cpp" />
+    <ClCompile Include="找女大.cpp" />
+    <ClCompile Include="嫖娼.cpp" />
+    <ClCompile Include="建政.cpp" />
+    <ClCompile Include="禁言.cpp" />
+    <ClCompile Include="踢人.cpp" />
+    <ClCompile Include="吹牛.cpp" />
+    <ClCompile Include="红温.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="害虫.h" />
+    <ClInclude Include="离婚.h" />
+    <ClInclude Include="找女大.h" />
+    <ClInclude Include="嫖娼.h" />
+    <ClInclude Include="建政.h" />
+    <ClInclude Include="禁言.h" />
+    <ClInclude Include="踢人.h" />
+    <ClInclude Include="吹牛.h" />
+    <ClInclude Include="红温.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

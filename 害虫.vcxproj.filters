@@ -21,9 +21,57 @@
     <ClCompile Include="create害虫.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="离婚.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="找女大.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="嫖娼.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="建政.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="禁言.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="踢人.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="吹牛.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="红温.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="害虫.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="离婚.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="找女大.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="嫖娼.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="建政.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="禁言.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="踢人.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="吹牛.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="红温.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

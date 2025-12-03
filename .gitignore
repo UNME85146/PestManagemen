@@ -1,0 +1,65 @@
+# ==================== 你的项目特定忽略规则 ====================
+# 忽略根目录下的 CMake 构建目录
+cmake-build-debug/
+cmake-build-release/
+build/
+out/
+
+# ==================== 编译生成的文件 ====================
+# 目标文件
+*.o
+*.obj
+
+# 可执行文件（如果有的话）
+*.exe
+
+# 库文件
+*.so
+*.dll
+*.lib
+*.a
+
+# 调试文件
+*.pdb
+*.idb
+*.ilk
+
+# ==================== CMake 生成的文件 ====================
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+CTestTestfile.cmake
+
+# ==================== IDE 配置文件 ====================
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+
+# CLion
+.idea/
+
+# VS/Visual Studio
+*.user
+
+# Qt Creator
+*.pro.user
+
+# ==================== 系统文件 ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================== 临时文件 ====================
+*~
+*.swp
+*.swo
+*.sublime-*
+*.log
+*.tmp
+*.temp
+
+# ==================== 如果你有子项目目录 ====================
+# 如果 qdigmore 目录下也有构建文件
+qdigmore/cmake-build-debug/
+qdigmore/build/

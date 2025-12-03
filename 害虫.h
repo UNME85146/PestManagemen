@@ -20,9 +20,16 @@ public:
     void 增加年龄(int 年龄);
     void 减少年龄(int 年龄);
     void 行为();
+    int 获取红温值() const;
+    void 设置红温值(int 红温值);
+    void 增加红温值(int 数值);
+    void 减少红温值(int 数值);
+    void 禁言();
+    void 踢人();
 private:
     std::string 名字;
     std::vector<std::string> 特征;
     int 年龄;
+    int 红温值;
 };
 

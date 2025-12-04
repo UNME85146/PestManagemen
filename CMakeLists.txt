@@ -44,16 +44,17 @@ set(SOURCE_FILES
         # 主程序（main函数所在的文件）
         ${CMAKE_SOURCE_DIR}/create_pest.cpp
 
-        # SourceCode/src 目录下的所有源文件
-        ${CMAKE_SOURCE_DIR}/SourceCode/src/Boast.cpp
-        ${CMAKE_SOURCE_DIR}/SourceCode/src/BuildGovernance.cpp
-        ${CMAKE_SOURCE_DIR}/SourceCode/src/Divorce.cpp
-        ${CMAKE_SOURCE_DIR}/SourceCode/src/FindCollegeGirl.cpp
-        ${CMAKE_SOURCE_DIR}/SourceCode/src/kick.cpp
-        ${CMAKE_SOURCE_DIR}/SourceCode/src/Mute.cpp
-        ${CMAKE_SOURCE_DIR}/SourceCode/src/Pest.cpp
-        ${CMAKE_SOURCE_DIR}/SourceCode/src/Prostitution.cpp
-        ${CMAKE_SOURCE_DIR}/SourceCode/src/RedTemperature.cpp
+        # SourceCode/cpp 目录下的所有源文件
+        ${CMAKE_SOURCE_DIR}/SourceCode/cpp/Boast.cpp
+        ${CMAKE_SOURCE_DIR}/SourceCode/cpp/BuildGovernance.cpp
+        ${CMAKE_SOURCE_DIR}/SourceCode/cpp/Divorce.cpp
+        ${CMAKE_SOURCE_DIR}/SourceCode/cpp/FindCollegeGirl.cpp
+        ${CMAKE_SOURCE_DIR}/SourceCode/cpp/kick.cpp
+        ${CMAKE_SOURCE_DIR}/SourceCode/cpp/Mute.cpp
+        ${CMAKE_SOURCE_DIR}/SourceCode/cpp/Pest.cpp
+        ${CMAKE_SOURCE_DIR}/SourceCode/cpp/Prostitution.cpp
+        ${CMAKE_SOURCE_DIR}/SourceCode/cpp/Quotes.cpp
+        ${CMAKE_SOURCE_DIR}/SourceCode/cpp/RedTemperature.cpp
 )
 
 # 创建可执行文件

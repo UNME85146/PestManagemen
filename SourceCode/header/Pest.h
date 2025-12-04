@@ -136,6 +136,10 @@ public:
     // 返回值：无
     void prostitution();
 
+    // 方法功能：说出随机语录
+    // 返回值：无
+    void sayQuote();
+
     // 方法功能：获取管理员权限状态
     // 返回值：是否拥有管理员权限
     bool getAdminPrivileges() const;

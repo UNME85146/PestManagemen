@@ -10,6 +10,7 @@
 #include "../header/Kick.h"
 #include "../header/Boast.h"
 #include "../header/RedTemperature.h"
+#include "../header/Quotes.h"
 
 // 构造函数：初始化害虫对象
 // 参数：
@@ -318,6 +319,23 @@ void Pest::prostitution()
 {
     ProstitutionBehavior prostitutionObj;
     prostitutionObj.Execute(m_name);
+}
+
+// 方法功能：说出随机语录
+// 功能：使用QuotesManager获取随机语录并输出
+// 返回值：无
+void Pest::sayQuote()
+{
+    QuotesManager quotesManager;
+    std::string quote = quotesManager.getRandomQuote();
+    if (!quote.empty())
+    {
+        std::cout << "【害虫语录】" << m_name << " 说: \"" << quote << "\"" << std::endl;
+    }
+    else
+    {
+        std::cout << "【提示】" << m_name << " 暂时没有语录可说" << std::endl;
+    }
 }
 
 // 方法功能：执行默认行为
